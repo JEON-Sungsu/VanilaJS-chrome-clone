@@ -1,0 +1,12 @@
+{
+    "folders": [
+        {
+            "name": "VanilaJS-chrome-clone",
+            "path": "."
+        },
+        {
+            "name": "kakao-clone-coding",
+            "path": "../kakao-clone-coding"
+        }
+    ]
+}
