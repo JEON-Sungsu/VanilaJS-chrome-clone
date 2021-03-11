@@ -7,6 +7,9 @@
         {
             "name": "kakao-clone-coding",
             "path": "../kakao-clone-coding"
+        },
+        {
+            "path": "../practiceJavascript"
         }
     ]
 }
