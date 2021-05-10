@@ -34,8 +34,7 @@ form 태그를 통해서 submit이라는 event 가 발생하게 된다면, handl
 function paintGreeting(text){
     form.classList.remove(SHOWING_CN); //input 태그를 없애는, CSS로 설정된 클래스를 input 태그에 추가하고 
     greeting.classList.add(SHOWING_CN);  // 반대로 <h4> 태그를 보여줘라
-    greeting.innerText = `Hello ${text}!!
-    What are you gonna do today?`; /* 단 <h4> 태그를 보여줄 때 내부에 Hello (text) 를 출력해라. 이때 
+    greeting.innerText = `Hello ${text}!!`; /* 단 <h4> 태그를 보여줄 때 내부에 Hello (text) 를 출력해라. 이때 
     text 가 뭐냐면 handleSubmit 함수에 있는, currentValue 변수 즉 input 에 입력되어진 값을 의미한다. 
     HTML 에서 input 으로 사용자의 이름을 입력하라고 했으니, 입력되는 것은 결국 사용자의 이름이겠지? */
 } 
