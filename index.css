@@ -1,7 +1,9 @@
-h1 {
-    color:red;
+
+.form,
+.greetings {
+    display: none;
 }
 
-.clicked {
-    color:blueviolet;
+.showing {
+    display: block;
 }
